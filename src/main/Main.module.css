@@ -1,10 +1,13 @@
 .mainBlock{
     background-color: #ffcfd7;
     height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
 }
+ .container{
+     border: 1px solid;
+     height: 100%;
+     width: 80%;
+     margin: 0 auto;
+ }
 
 .text{
     width: 300px;
