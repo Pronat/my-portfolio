@@ -1,0 +1,18 @@
+.mainBlock{
+    background-color: #ffcfd7;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.text{
+    width: 300px;
+    background-color: lightgrey;
+}
+
+.photo{
+    width: 200px;
+    height: 300px;
+    background-color: lightgrey;
+}
