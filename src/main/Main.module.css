@@ -2,12 +2,7 @@
     background-color: #ffcfd7;
     height: 100vh;
 }
- .container{
-     border: 1px solid;
-     height: 100%;
-     width: 80%;
-     margin: 0 auto;
- }
+
 
 .text{
     width: 300px;
