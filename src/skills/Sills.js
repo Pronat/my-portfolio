@@ -7,7 +7,7 @@ export const Sills = () => {
         <div className={style.skillsBlock}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <h2>Skills</h2>
-                <div className={style.skills}></div>
+                <div className={style.skills}>111</div>
 
             </div>
 
