@@ -5,9 +5,9 @@ import styleContainer from '../common/styles/Container.module.css'
 export const Sills = () => {
     return (
         <div className={style.skillsBlock}>
-            <div className={styleContainer.container}>
-                <div>text 1</div>
-                <div>text 2</div>
+            <div className={`${styleContainer.container} ${style.skillsContainer}`}>
+                <h2>Skills</h2>
+                <div className={style.skills}></div>
 
             </div>
 
