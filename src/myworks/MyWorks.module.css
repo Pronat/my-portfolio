@@ -5,10 +5,14 @@
 
 .myWorksContainer{
 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .title{
-    background-color: darkgray;
+    background-color: lightgrey;
 }
 
 .works{

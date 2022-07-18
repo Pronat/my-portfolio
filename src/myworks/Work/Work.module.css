@@ -2,6 +2,8 @@
     width: 250px;
     height: 200px;
     background-color: darkgray;
+    display: flex;
+    justify-content: revert;
 }
 
 .workModule{
