@@ -1,15 +1,13 @@
 .image {
-    width: 300px;
+    width: 250px;
     height: 200px;
     background-color: darkgray;
 }
 
-.workBlock{
-
-}
-
-.titDescr{
+.workModule{
+    width: 250px;
     background-color: lightgrey;
+
 }
 
 .title{
