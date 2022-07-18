@@ -1,0 +1,17 @@
+.myWorksBlock{
+    background-color: #db7bff;
+    height: 100vh;
+}
+
+.myWorksContainer{
+
+}
+
+.title{
+    background-color: darkgray;
+}
+
+.works{
+    border: 1px solid aqua;
+    width: 100%;
+}
