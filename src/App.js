@@ -3,6 +3,7 @@ import {Header} from "./header/Header";
 import {Main} from "./main/Main";
 import {Skills} from "./skills/Skills";
 import {MyWorks} from "./myworks/MyWorks";
+import {DistanceWork} from "./distanceWork/DistanceWork";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
             <Main/>
             <Skills/>
             <MyWorks/>
+            <DistanceWork/>
         </div>
     );
 }
