@@ -1,8 +1,22 @@
 .contacts{
-    background-color: chartreuse;
+    background-color: aquamarine;
     display: flex;
 }
 
 .container{
+    height: 100vh;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.form{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonSend{
 
 }
