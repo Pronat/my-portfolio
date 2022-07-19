@@ -7,8 +7,8 @@ export const DistanceWork = () => {
         <div className={style.DistanceWork}>
             <div className={`${styleContainer.container} ${style.container}`}>
                 <div className={style.border}>
-                    <h3>Рассмотрю варианты удаленной работы</h3>
-                    <button>Нанять меня</button>
+                    <h3 className={style.color}>Рассмотрю варианты удаленной работы</h3>
+                    <button className={style.color}>Нанять меня</button>
                 </div>
             </div>
         </div>
