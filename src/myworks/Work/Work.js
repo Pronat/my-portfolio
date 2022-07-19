@@ -5,9 +5,8 @@ export const Work = (props) => {
     return (
         <div className={style.workModule}>
             <div className={style.image}>
-                {props.image}{<button className={style.button}
-            >Смотреть</button>}</div>
-
+                {props.image}{<button className={style.button}>Смотреть</button>}
+            </div>
             <h3 className={style.title}>{props.title}</h3>
             <span className={style.description}>{props.description}</span>
         </div>
