@@ -9,9 +9,9 @@ export const Contacts = () => {
                 <h3>Contacts</h3>
                 <div>
                     <form className={style.form}>
-                        <input type="checkbox"/>text1
-                        <input type="text1"/>text1
-                        <textarea>text3</textarea>
+                        <div><input value={"111"}/></div>
+                        <div><input value={"111"}/></div>
+                        <div><textarea>text3</textarea></div>
                     </form>
                 </div>
                 <button className={style.buttonSend}>Send</button>
