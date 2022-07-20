@@ -8,7 +8,8 @@ export const DistanceWork = () => {
             <div className={`${styleContainer.container} ${style.container}`}>
                 <div className={style.border}>
                     <h3 className={style.color}>Рассмотрю варианты удаленной работы</h3>
-                    <button className={style.color}>Нанять меня</button>
+                    {/*<button className={style.color}>Нанять меня</button>*/}
+                    <a href={"Подробнее"} className={style.color}>Нанять меня</a>
                 </div>
             </div>
         </div>
