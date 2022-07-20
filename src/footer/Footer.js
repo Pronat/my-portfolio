@@ -9,11 +9,8 @@ export const Footer = () => {
                 <h3>Суворов Александр</h3>
                 <div className={style.icons}>
                     <div className={style.icon1}></div>
-                    <div className={style.icon2}></div>
                     <div className={style.icon1}></div>
-                    <div className={style.icon2}></div>
                     <div className={style.icon1}></div>
-                    <div className={style.icon2}></div>
                     <div className={style.icon1}></div>
                 </div>
                 <h3>2019 Все права защищены</h3>
