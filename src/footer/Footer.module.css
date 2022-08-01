@@ -14,8 +14,8 @@
     width: 280px;
     display: flex;
     justify-content: space-between;
-
-
+    max-width: 350px;
+    width: 100%;
 }
 
 .icon1 {
