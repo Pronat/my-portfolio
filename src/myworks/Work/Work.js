@@ -5,11 +5,9 @@ export const Work = (props) => {
     return (
         <div className={style.workModule}>
             <div className={style.image}>
-                {/*{props.image}{<button className={style.button}>Смотреть</button>}*/}
                 {props.image}{<a href={"ссылка"} className={style.button}>Смотреть</a>}
             </div>
             <h3 className={style.title}>{props.title}</h3>
-            {/*<span className={style.description}>{props.description}</span>*/}
             <span className={style.description}>{props.description}</span>
         </div>
     );
