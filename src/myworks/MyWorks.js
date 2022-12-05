@@ -8,7 +8,7 @@ export const MyWorks = () => {
     return (
         <div className={style.myWorksBlock}>
             <div className={`${styleContainer.container} ${style.myWorksContainer}`}>
-                <Title />
+                <Title text={'Projects'}/>
                 <div className={style.works}>
                     <Work image={"Image1"} title={"My first work"}
                           description={"Description of my first work, Description of my first work"}/>
