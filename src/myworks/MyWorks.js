@@ -7,20 +7,24 @@ import socialImage from './../assets/image/social-network.jpg'
 import todolistImage from './../assets/image/todolist.jpg'
 
 export const MyWorks = () => {
-    // const social = {
-    //     color: 'blue',
-    //     backgroundImage: 'url(' + imgUrl + ')',
-    // };
+    const social = {
+        color: 'blue',
+        backgroundImage: 'url(' + './../assets/image/social-network.jpg' + ')',
+    };
+ const todolist = {
+        color: 'blue',
+        backgroundImage: 'url(' + './../assets/image/todolist.jpg' + ')',
+    };
 
     return (
         <div className={style.myWorksBlock}>
             <div className={`${styleContainer.container} ${style.myWorksContainer}`}>
                 <Title text={'Projects'}/>
                 <div className={style.works}>
-                    <Work image={"Image1"} title={"My first work"}
-                          description={"Description of my first work, Description of my first work"}/>
-                    <Work image={"Image2"} title={"My second work"}
-                          description={"Description of my second work, Description of my second work"}/>
+                    <Work style={social} image={"Image1"} title={"Social network"}
+                          description={"Description of my Social network, Description of my Social network"}/>
+                    <Work style={todolist} image={"Image2"} title={"Todolist"}
+                          description={"Description of my Todolist, Description of my Todolist"}/>
                 </div>
             </div>
         </div>

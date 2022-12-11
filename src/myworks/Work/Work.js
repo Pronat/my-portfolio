@@ -4,7 +4,7 @@ import style from "./Work.module.css"
 export const Work = (props) => {
     return (
         <div className={style.workModule}>
-            <div className={style.image}>
+            <div className={style.image} style={props.style}>
                 {props.image}{<a href={"ссылка"} className={style.button}>Смотреть</a>}
             </div>
             {/*<div className={style.projectInfo}>*/}
