@@ -7,8 +7,10 @@ export const Work = (props) => {
             <div className={style.image}>
                 {props.image}{<a href={"ссылка"} className={style.button}>Смотреть</a>}
             </div>
-            <h3 className={style.workTitle}>{props.title}</h3>
-            <span className={style.description}>{props.description}</span>
+            {/*<div className={style.projectInfo}>*/}
+                <h3 className={style.workTitle}>{props.title}</h3>
+                <span className={style.description}>{props.description}</span>
+            {/*</div>*/}
         </div>
     );
 };
