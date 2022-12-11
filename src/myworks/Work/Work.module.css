@@ -17,8 +17,16 @@
 
 }
 
-.title{
-
+.workTitle{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #eeeeee;
+    position: relative;
+    display: inline-block;
+    font-size: 21px;
+    margin: 0 0 8px;
+    padding-bottom: 6px;
+    z-index: 1;
 }
 
 .description{
