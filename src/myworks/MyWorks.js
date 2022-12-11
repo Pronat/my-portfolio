@@ -9,11 +9,11 @@ import todolistImage from './../assets/image/todolist.jpg'
 export const MyWorks = () => {
     const social = {
         color: 'blue',
-        backgroundImage: 'url(' + './../assets/image/social-network.jpg' + ')',
+        backgroundImage: `url(${socialImage})`,
     };
  const todolist = {
         color: 'blue',
-        backgroundImage: 'url(' + './../assets/image/todolist.jpg' + ')',
+        backgroundImage: `url(${todolistImage})`,
     };
 
     return (

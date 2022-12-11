@@ -1,14 +1,16 @@
 .image {
     width: 250px;
     height: 200px;
-    background-color: darkgray;
+    /*background-color: darkgray;*/
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 
-.workModule{
+.workModule {
     width: 250px;
     background-color: #51565B;
     display: flex;
@@ -17,7 +19,7 @@
 
 }
 
-.workTitle{
+.workTitle {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: #eeeeee;
@@ -29,7 +31,7 @@
     z-index: 1;
 }
 
-.description{
+.description {
     font-family: "Poppins", Helvetica, sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -38,8 +40,8 @@
     color: #a6a7a8;
 }
 
-.button{
-    background-color: dimgrey;
+.button {
+    background-color: #51565B;
     width: 50%;
 }
 
