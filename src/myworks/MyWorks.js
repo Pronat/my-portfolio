@@ -3,8 +3,15 @@ import style from './MyWorks.module.css'
 import styleContainer from '../common/styles/Container.module.css'
 import {Work} from "./Work/Work";
 import {Title} from "../common/components/title/Title";
+import socialImage from './../assets/image/social-network.jpg'
+import todolistImage from './../assets/image/todolist.jpg'
 
 export const MyWorks = () => {
+    // const social = {
+    //     color: 'blue',
+    //     backgroundImage: 'url(' + imgUrl + ')',
+    // };
+
     return (
         <div className={style.myWorksBlock}>
             <div className={`${styleContainer.container} ${style.myWorksContainer}`}>
