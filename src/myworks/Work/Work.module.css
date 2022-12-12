@@ -1,6 +1,6 @@
 .image {
-    width: 250px;
-    height: 200px;
+    width: 500px;
+    height: 400px;
     /*background-color: darkgray;*/
     background-size: cover;
     background-position: center;
@@ -11,7 +11,7 @@
 }
 
 .workModule {
-    width: 250px;
+    width: 500px;
     background-color: #51565B;
     display: flex;
     flex-direction: column;
@@ -41,7 +41,13 @@
 }
 
 .button {
-    background-color: #51565B;
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.75em;
+    color: #282c34;
+    background-color: #a6a7a8;
     width: 50%;
 }
 
