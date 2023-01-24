@@ -43,6 +43,7 @@
 }
 
 .button {
+    height: 35px;
     font-family: "Poppins", Helvetica, sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -51,6 +52,9 @@
     color: #a6a7a8;
     background-color: #51565B;
     width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .projectInfo {
