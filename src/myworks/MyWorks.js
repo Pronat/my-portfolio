@@ -21,9 +21,9 @@ export const MyWorks = () => {
             <div className={`${styleContainer.container} ${style.myWorksContainer}`}>
                 <Title text={'Projects'}/>
                 <div className={style.works}>
-                    <Work style={social} image={"Image1"} title={"Social network"}
+                    <Work style={social} title={"Social network"}
                           description={"Description of my Social network, Description of my Social network"}/>
-                    <Work style={todolist} image={"Image2"} title={"Todolist"}
+                    <Work style={todolist} title={"Todolist"}
                           description={"Description of my Todolist, Description of my Todolist"}/>
                 </div>
             </div>
