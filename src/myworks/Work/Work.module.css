@@ -1,5 +1,5 @@
 .image {
-    width: 500px;
+    width: 550px;
     height: 400px;
     /*background-color: darkgray;*/
     background-size: cover;
@@ -11,7 +11,7 @@
 }
 
 .workModule {
-    width: 500px;
+    width: 550px;
     background-color: #51565B;
     display: flex;
     flex-direction: column;
@@ -48,8 +48,8 @@
     font-size: 14px;
     font-style: normal;
     line-height: 1.75em;
-    color: #282c34;
-    background-color: #a6a7a8;
+    color: #a6a7a8;
+    background-color: #51565B;
     width: 50%;
 }
 
