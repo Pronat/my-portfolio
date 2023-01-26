@@ -1,5 +1,5 @@
 import React from 'react';
-import style from "./Work.module.css"
+import style from "./Work.module.scss"
 
 export const Work = (props) => {
     return (
@@ -7,10 +7,8 @@ export const Work = (props) => {
             <div className={style.image} style={props.style}>
                 {props.image}{<a href={"ссылка"} className={style.button}>Project</a>}
             </div>
-            {/*<div className={style.projectInfo}>*/}
-                <h3 className={style.workTitle}>{props.title}</h3>
-                <span className={style.description}>{props.description}</span>
-            {/*</div>*/}
+            <h3 className={style.workTitle}>{props.title}</h3>
+            <span className={style.description}>{props.description}</span>
         </div>
     );
 };
