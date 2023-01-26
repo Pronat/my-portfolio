@@ -10,6 +10,16 @@
     align-items: center;
 }
 
+.image::before {
+    position: absolute;
+    content: '';
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 .workModule {
     width: 550px;
     background-color: #51565B;
