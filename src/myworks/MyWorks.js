@@ -24,7 +24,9 @@ export const MyWorks = () => {
                     <Work style={social} title={"Social network"}
                           description={"Description of my Social network, Description of my Social network"}/>
                     <Work style={todolist} title={"Todolist"}
-                          description={"Description of my Todolist, Description of my Todolist"}/>
+                          description={"Description of my Todolist, Description of my Todolist , Description of my Todolist," +
+                              ", Description of my Todolist, Description of my Todolist Description of my Todolist," +
+                              ", Description of my Todolist Description of my Todolist"}/>
                 </div>
             </div>
         </div>
