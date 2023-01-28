@@ -13,11 +13,11 @@ export const Main = () => {
         <div className={style.mainBlock}>
             <div className={styleContainer.container}>
                 <div className={style.text}>
-                    <span>Hi</span>
+                    <h1>Hi</h1>
                     <h1>My name is Alexandr Suvorov</h1>
                     <p>I am front-end developer</p>
                 </div>
-                <div className={style.photo} style={avatar}>Photo</div>
+                <div className={style.photo} style={avatar}></div>
             </div>
         </div>
     );
