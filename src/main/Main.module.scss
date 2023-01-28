@@ -2,11 +2,11 @@
 @import '../common/styles/sass/mixins';
 
 .mainBlock{
-    background-color: #ffcfd7;
+    background-color: $bgColor;
     min-height: 100vh;
     .text{
         width: 300px;
-        background-color: lightgrey;
+        background-color: $bgDescriptionColor;
     }
 
     .photo{
