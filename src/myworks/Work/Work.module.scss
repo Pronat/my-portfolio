@@ -2,7 +2,7 @@
 @import '../../common/styles/sass/mixins';
 
 .workModule {
-  width: 550px;
+  width: 400px;
   background-color: $bgDescriptionColor;
   display: flex;
   flex-direction: column;
@@ -10,8 +10,8 @@
   margin-bottom: 2px;
 
   .image {
-    width: 550px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -52,11 +52,6 @@
 
   .workTitle {
     @include text($textFont, 21px, 1.75em, $textColor, 400);
-    //font-family: 'Poppins', sans-serif;
-    //font-size: 21px;
-    //line-height: 1.75em;
-    //color: $textColor;
-    //font-weight: 400;
     position: relative;
     display: inline-block;
     margin: 0 0 5px;
@@ -65,12 +60,7 @@
   }
 
   .description {
-    font-family: "Poppins", Helvetica, sans-serif;
-    font-size: 14px;
-    line-height: 1.75em;
-    color: $textDescriptionColor;
-    font-weight: 400;
-
+    @include text($textFont, 14px, 1.75em, $textDescriptionColor, 400);
     font-style: normal;
     margin-bottom: 7px;
   }
