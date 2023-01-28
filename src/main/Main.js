@@ -13,9 +13,9 @@ export const Main = () => {
         <div className={style.mainBlock}>
             <div className={styleContainer.container}>
                 <div className={style.text}>
-                    <h1>Hi</h1>
-                    <h1>My name is Alexandr Suvorov</h1>
-                    <p>I am front-end developer</p>
+                    <h1 className={style.mainTitle}>Hi</h1>
+                    <h1 className={style.mainText}>My name is Alexandr Suvorov</h1>
+                    <p className={style.mainDescription}>I am front-end developer</p>
                 </div>
                 <div className={style.photo} style={avatar}></div>
             </div>
