@@ -1,12 +1,13 @@
+@import '../common/styles/sass/variables';
+
 .skillsBlock {
     min-height: 100vh;
-    background-color: darkseagreen;
+    background-color: $bgColor;
     .skillsContainer {
         align-items: center;
         justify-content: flex-start;
         flex-direction: column;
         .skills {
-            border: 1px solid;
             width: 100%;
             display: flex;
             justify-content: space-between;
