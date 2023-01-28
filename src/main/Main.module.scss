@@ -1,0 +1,19 @@
+@import '../common/styles/sass/variables';
+@import '../common/styles/sass/mixins';
+
+.mainBlock{
+    background-color: #ffcfd7;
+    min-height: 100vh;
+    .text{
+        width: 300px;
+        background-color: lightgrey;
+    }
+
+    .photo{
+        width: 300px;
+        height: 400px;
+        background-color: lightgrey;
+    }
+}
+
+
