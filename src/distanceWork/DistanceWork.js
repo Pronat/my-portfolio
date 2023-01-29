@@ -8,8 +8,8 @@ export const DistanceWork = () => {
         <div className={style.DistanceWork}>
             <div className={`${styleContainer.container} ${style.container}`}>
                 <div className={style.border}>
-                    <h3 className={style.color}>I am available for Freelance</h3>
-                    <a href={"Подробнее"} className={style.color}>Hire me</a>
+                    <h3 className={style.distanceText}>I am available for Freelance</h3>
+                    <a href={"Подробнее"} className={style.distanceLink}>Hire me</a>
                 </div>
             </div>
         </div>
