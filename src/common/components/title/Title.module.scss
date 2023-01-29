@@ -1,11 +1,10 @@
 @import '../../styles/sass/variables';
+@import '../../styles/sass/mixins';
 
 .title{
     font-size: 30px;
     & h2{
-        font-family: 'Poppins', sans-serif;
-        color: $textColor;
-        font-weight: 400;
+        @include text($textFont, 40px, 1.75em, $textColor, 400);
         font-style: normal;
         letter-spacing: 0px;
         margin-top: 50px;

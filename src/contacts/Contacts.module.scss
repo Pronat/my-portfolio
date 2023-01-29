@@ -30,7 +30,7 @@
         .buttonSend{
             margin: 20px;
             background-color: $bgDescriptionColor;
-            @include text($textFont, 14px, 1.75em, $textDescriptionColor, 400);
+            @include text($textFont, 18px, 1.75em, $textDescriptionColor, 400);
             font-style: normal;
         }
 
