@@ -1,11 +1,15 @@
 @import '../common/styles/sass/variables';
 @import '../common/styles/sass/mixins';
 
-.nav{
+.nav {
     border: 2px black solid;
     width: 300px;
     display: flex;
     justify-content: space-evenly;
-    @include text($textFont, 14px, 1.75em, $textDescriptionColor, 400);
+    //@include text($textFont, 14px, 1.75em, $textDescriptionColor, 400);
     font-style: normal;
+}
+
+.navText {
+    @include text($textFont, 14px, 1.75em, $textDescriptionColor, 400);
 }

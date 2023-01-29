@@ -16,7 +16,7 @@
             z-index: 1;
         }
         .mainText {
-            @include text($textFont, 21px, 1.75em, $textDescriptionColor, 400);
+            @include text($textFont, 21px, 1.75em, $textColor, 400);
             position: relative;
             display: inline-block;
             margin: 0 0 5px;
