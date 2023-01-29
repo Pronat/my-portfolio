@@ -1,0 +1,42 @@
+@import '../common/styles/sass/variables';
+@import '../common/styles/sass/mixins';
+
+.contacts{
+    background-color: $bgColor;
+    display: flex;
+    .container{
+        min-height: 45vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        .contactsTitle {
+            @include text($textFont, 21px, 1.75em, $textColor, 400);
+            position: relative;
+            display: inline-block;
+            margin: 0 0 5px;
+            padding-bottom: 6px;
+            z-index: 1;
+        }
+        .form{
+            border: 1px solid;
+            display: flex;
+            flex-direction: column;
+            max-width: 500px;
+            width: 100%;
+            .margin{
+                margin: 10px;
+            }
+        }
+        .buttonSend{
+            margin: 10px;
+            background-color: $bgDescriptionColor;
+        }
+
+    }
+}
+
+
+
+
+
+
