@@ -1,0 +1,41 @@
+@import '../common/styles/sass/variables';
+@import '../common/styles/sass/mixins';
+
+.footer {
+    min-height: 50vh;
+    background-color: $bgColor;
+    .container {
+        display: flex;
+        flex-direction: column;
+        .footerTitle {
+            @include text($textFont, 21px, 1.75em, $textColor, 400);
+            position: relative;
+            display: inline-block;
+            margin: 0 0 5px;
+            padding-bottom: 6px;
+            z-index: 1;
+        }
+        .footerDescription {
+            @include text($textFont, 14px, 1.75em, $textDescriptionColor, 400);
+            font-style: normal;
+            margin-bottom: 7px;
+        }
+        .icons {
+            width: 280px;
+            display: flex;
+            justify-content: space-between;
+            max-width: 350px;
+            width: 100%;
+            .icon1 {
+                height: 60px;
+                width: 60px;
+                background-color: darkgray;
+            }
+        }
+    }
+}
+
+
+
+
+
