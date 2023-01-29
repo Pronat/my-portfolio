@@ -1,5 +1,6 @@
+
 import React from 'react';
-import style from './DistanceWork.module.css'
+import style from './DistanceWork.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
 
 export const DistanceWork = () => {

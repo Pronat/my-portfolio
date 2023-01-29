@@ -3,13 +3,12 @@
 
 .nav {
     border: 2px black solid;
-    width: 300px;
+    width: 400px;
     display: flex;
     justify-content: space-evenly;
-    //@include text($textFont, 14px, 1.75em, $textDescriptionColor, 400);
     font-style: normal;
+    .navText {
+        @include text($textFont, 18px, 1.75em, $textDescriptionColor, 400);
+    }
 }
 
-.navText {
-    @include text($textFont, 14px, 1.75em, $textDescriptionColor, 400);
-}
